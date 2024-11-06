@@ -1,2 +1,3 @@
-# Moodiometry
-Moodiometry - Bangkit 2024 Capstone Project
+# Moodiometry - Bangkit 2024 Capstone Project
+We see a lot of people who often work late into the night or stay up late. From so much work, of course sometimes they forget about their health and even get stressed because of the work. Therefore, we are interested in finding solutions to a person's mental health by providing reminders and tracking their mood and stress levels through the application we created and providing information and recommendations regarding activities that can be done to reduce the stress level and consultations. From the application, they can be more aware of their mood and stress level so that it will not interfere with their mental health for the work they are doing.
+
