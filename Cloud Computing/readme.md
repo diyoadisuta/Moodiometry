@@ -27,16 +27,14 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek Moodiometry di mesin Anda
 2. Instal semua dependencies yang dibutuhkan:
    npm install
 
-### Configure Environment Variables
-3. Buat file .env di direktori root proyek dan tambahkan konfigurasi berikut:
-   GCP_PROJECT_ID=moodiometry
-   GCP_BUCKET_NAME=model_moodiometry
-   PORT=8080
-
-### Run Locally
-4. Jalankan aplikasi:
-   npm start
-
 ### Deploy to Google Cloud
-5. Deploy aplikasi ke Google Cloud Run:
-   gcloud run deploy
+3. Deploy aplikasi ke Google Cloud Run:
+   Build dan deploy aplikasi menggunakan Google Cloud CLI
+   - Build container image :
+     gcloud builds submit --tag gcr.io/moodiometry
+   - Deploy ke Cloud Run :
+     gcloud run deploy modelapi \
+     --image gcr.io/moodiometry \
+     --platform managed \
+     --region asia-southeast2 \
+     --allow-unauthenticated
