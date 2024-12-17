@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Moodiometri</string>
+    <string name="hint_user">Username/Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_re_password">Re-type password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="google">Login with Google</string>
+    <string name="username">Username or email cannot be empty</string>
+    <string name="password">Password cannot be empty</string>
+    <string name="re_password">Re-type password cannot be empty</string>
+    <string name="not">Password does not match</string>
+    <string name="password_minimum_length">Password must consist of at least 8 characters\n</string>
+    <string name="account">You haven’t already account? Sign Up</string>
+    <string name="ready">You have already account? Sign In</string>
+
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <string name="logo_description">App Logo</string>
+
+    <string name="fragment_home">Hello home fragment</string>
+    <string name="fragment_history">Hello history fragment</string>
+    <string name="fragment_profile">Hello profile fragment</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="edit_profile1">EDIT PROFILE</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="user">Username</string>
+    <string name="email">email.com</string>
+    <string name="mail">Email</string>
+    <string name="pin">Passwors / Pin</string>
+    <string name="general">GENERAL</string>
+    <string name="privacy_police">Privacy Police</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="account_safety">Account Safety</string>
+    <string name="help_center">Help Center</string>
+    <string name="others">OTHERS</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="logout">Logout</string>
+    <string name="back">Back</string>
+    <string name="camera">Camera</string>
+    <string name="name">Name</string>
+    <string name="city">City</string>
+    <string name="phone">Phone Number</string>
+    <string name="save">Save</string>
+    <string name="save1">SAVE</string>
+    <string name="premium">PREMIUM</string>
+    <string name="acc">ACCOUNT</string>
+    <string name="moodiometry_premium">Moodiometry Premium</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
